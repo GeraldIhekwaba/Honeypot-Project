@@ -11,3 +11,6 @@ This project involves setting up a Cowrie honeypot, forwarding the logs to Splun
 -	Network Configuaration: Bridged mode, allowing direct communication with the host network
 -	Honeypot: Cowrie ,which is an interaction SSH and Telnet honeypot designed to log brute force attacks and the shell interactions performed by the attacker. 
 
+2)**Software Tools**: Tools used to carry out the attack simulation and monitor the logs:
+
+- Terminal:
