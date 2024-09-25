@@ -17,3 +17,5 @@ This project involves setting up a Cowrie honeypot, forwarding the logs to Splun
   - Splunk Universal Forwarder: A lightweight agent used to collect and forward log data to a Splunk Enterprise instance.
   - Splunk Enterprise: A software platform for indexing, searching, and visualizing large volumes of machine-generated data.
 
+## Setup/Configuration Instructions
+
