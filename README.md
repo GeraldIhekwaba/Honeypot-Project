@@ -1,4 +1,4 @@
-# Honeypot Project with Cowrie and Splunk
+# Honeypot Project
 
 ## Overview
 This project involves setting up a Cowrie honeypot, forwarding the logs to Splunk for monitoring and visualization.
