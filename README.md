@@ -13,4 +13,4 @@ This project involves setting up a Cowrie honeypot, forwarding the logs to Splun
 
 2) **Software Tools**: Tools used to carry out the attack simulation and monitor the logs:
 
-- Terminal:
+- Terminal: The macOS terminal was used as the primary interface for simulating attacks on the honeypot by initiating SSH connections to the target machine.
