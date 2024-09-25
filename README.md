@@ -19,6 +19,10 @@ This project involves setting up a Cowrie honeypot, forwarding the logs to Splun
 
 ## Setup/Configuration Instructions
 #### Installation and Configuration of Cowrie
-Before installing Cowrie, you need to configure the SSH service to listen on a different port, such as port 2222, instead of the default port 22. To do this, navigate to the SSH configuration file located at /etc/ssh/sshd_config,and change the listening port. After making this change, restart the SSH service. You can verify that the new port is active by using the command nmap <your-ip-address> to check the open ports.
+Before installing Cowrie, you need to configure the SSH service to listen on a different port, such as port 2222, instead of the default port 22. To do this, navigate to the SSH configuration file located at /etc/ssh/sshd_config,and change the listening port. 
+![SSH Config file](/Screenshots/sshconfiguration.png)
+
+
+After making this change, restart the SSH service. You can verify that the new port is active by using the command nmap <your-ip-address> to check the open ports.
 
 
