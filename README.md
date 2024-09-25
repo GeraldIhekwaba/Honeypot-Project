@@ -9,4 +9,5 @@ This project involves setting up a Cowrie honeypot, forwarding the logs to Splun
 -	VM Platform: VMware fusion
 -	Guest OS: Debian 12
 -	Network Configuaration: Bridged mode, allowing direct communication with the host network
+-	Honeypot: Cowrie ,which is an interaction SSH and Telnet honeypot designed to log brute force attacks and the shell interactions performed by the attacker. 
 
