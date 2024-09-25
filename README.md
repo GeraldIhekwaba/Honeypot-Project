@@ -12,8 +12,8 @@ This project involves setting up a Cowrie honeypot, forwarding the logs to Splun
 
 2) **Software Tools**: Tools used to conduct and monitor the attack simulation, including log management and visualization:
 
+  - Honeypot: Cowrie ,which is an interaction SSH and Telnet honeypot designed to log brute force attacks and the shell interactions performed by the attacker. 
   - Terminal: The macOS terminal is a command-line interface used to interact with the system, run scripts, and execute commands on macOS.
   - Splunk Universal Forwarder: A lightweight agent used to collect and forward log data to a Splunk Enterprise instance.
   - Splunk Enterprise: A software platform for indexing, searching, and visualizing large volumes of machine-generated data.
-  - Honeypot: Cowrie ,which is an interaction SSH and Telnet honeypot designed to log brute force attacks and the shell interactions performed by the attacker. 
 
