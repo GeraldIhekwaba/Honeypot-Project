@@ -10,7 +10,7 @@ This project involves setting up a Cowrie honeypot, forwarding the logs to Splun
 -	Guest OS: Debian 12
 -	Network Configuaration: Bridged mode, allowing direct communication with the host network
 
-2) **Software Tools**: Tools used to carry out the attack simulation and monitor the logs:
+2) **Software Tools**: Tools used to conduct and monitor the attack simulation, including log management and visualization:
 
 - Terminal: The macOS terminal is a command-line interface used to interact with the system, run scripts, and execute commands on macOS.
 - Splunk Universal Forwarder: A lightweight agent used to collect and forward log data to a Splunk Enterprise instance.
