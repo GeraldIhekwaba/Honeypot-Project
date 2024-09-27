@@ -33,6 +33,6 @@ To start Cowrie, you can navigate to the bin directory where Cowrie is located a
 Instead of exporting the path every time you need to use Cowrie, you can add the exported path to the .bashrc configuration file. To do this, first, navigate to your home directory and run ls -a to display hidden files. Then, edit the .bashrc file and add the exported path command[_(Editing the .bashrc)_](/Screenshots/cowrie_bashrc.png). Save the changes, and finally, run "source ~/.bashrc" to apply the updated configuration. This will allow you to run Cowrie commands from anywhere within the user account without needing to manually export the path each time,with the path exported you can now start running Cowrie[_(Cowrie running successfully)_](/Screenshots/cowrie_running.png).
 
 #### Setting up Splunk
-
-
+In a testing environment, you could simply download and install Splunk Enterprise on the same machine as your honeypot to monitor logs directly. While this works for small-scale testing, in a larger environment, you wouldn’t want to run a Splunk Enterprise indexer on every machine that hosts a honeypot. Instead, you would set up a single Splunk Enterprise instance as a centralized indexer and forward the logs from multiple machines to that indexer.
+This is where Splunk Universal Forwarder comes into play. The forwarder is installed on the machine running the honeypot and sends the logs from that honeypot to the central Splunk Enterprise instance for log management and analysis.
 
