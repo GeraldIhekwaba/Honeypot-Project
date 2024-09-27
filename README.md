@@ -26,7 +26,7 @@ Now that the SSH configuration is complete, you can proceed to install Cowrie. F
 Once inside, create a Python virtual environment, then activate it [(Cowrie Virtualenv)](/Screenshots/virtualenv.png). After activation, proceed to install the necessary requirements, by inputing "pip install -r requirements.txt" wait for a couple seconds then it should be fully installed.
 
 Next, locate the cowrie.cfg.dist file. By default, Cowrie is installed with this template configuration file. To create a backup, make a copy of this file using the "cp" command and rename it to cowrie.cfg. The newly created cowrie.cfg will take precedence over the template configuration. Afterward, edit the cowrie.cfg file to configure Cowrie to listen on TCP port 22[(Cowrie configuration)](/Screenshots/cowriecfg_config.png).
-Before starting Cowrie, it’s necessary to bind it to port 22 using authbind, since only privileged users can bind to ports below 1024. To do this, first install authbind if it’s not already available on your system. Then, grant Cowrie permission to bind to port 22 by running the following command[(Authbind Cowrie to port 22)(/Screenshots/authbind_cowrie.png)]
+Before starting Cowrie, it’s necessary to bind it to port 22 using authbind, since only privileged users can bind to ports below 1024. To do this, first install authbind if it’s not already available on your system. Then, grant Cowrie permission to bind to port 22 by running the following command[(Authbind Cowrie to port 22)](/Screenshots/authbind_cowrie.png)
 
 This ensures Cowrie has the necessary permissions to bind to port 22 without needing elevated privileges. Once configured, you can proceed with starting Cowrie as usual.
 
