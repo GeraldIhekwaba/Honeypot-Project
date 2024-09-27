@@ -24,6 +24,6 @@ After making this adjustment, restart the SSH service by running "sudo systemctl
 
 Now that the SSH configuration is complete, you can proceed to install Cowrie. First, download and install the required dependencies for Cowrie [(View the dependencies installation)](/Screenshots/cowrie_dependencies.png). Once the dependencies are installed, create a new Cowrie user account with the password disabled. After creating the user, switch into the Cowrie user account. Next, clone the official Cowrie GitHub repository, and once the cloning process is complete [(Preview of the cowrie installation process)](Screenshots/cowrie_installation.png), navigate into the newly created Cowrie directory to continue with the setup.
 
-Once inside, create a Python virtual environment, then activate it. After activation, proceed to install the necessary requirements.
+Once inside, create a Python virtual environment, then activate it[(Cowrie Virtualenv)/Screenshots/virtualenv.png]. After activation, proceed to install the necessary requirements, by inputing "pip install -r requirements.txt" wait for a couple seconds then it should be fully installed.
 
 
