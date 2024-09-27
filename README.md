@@ -32,4 +32,7 @@ This ensures Cowrie has the necessary permissions to bind to port 22 without nee
 To start Cowrie, you can navigate to the bin directory where Cowrie is located and run the command directly. However, a more efficient way is to export the path to that bin file, allowing you to use Cowrie using simple commands like cowrie start, cowrie stop, or cowrie restart from anywhere in the account.
 Instead of exporting the path every time you need to use Cowrie, you can add the exported path to the .bashrc configuration file. To do this, first, navigate to your home directory and run ls -a to display hidden files. Then, edit the .bashrc file and add the exported path command[_(Editing the .bashrc)_](/Screenshots/cowrie_bashrc.png). Save the changes, and finally, run "source ~/.bashrc" to apply the updated configuration. This will allow you to run Cowrie commands from anywhere within the user account without needing to manually export the path each time,with the path exported you can now start running Cowrie[_(Cowrie running successfully)_](/Screenshots/cowrie_running.png).
 
+#### Setting up Splunk
+
+
 
