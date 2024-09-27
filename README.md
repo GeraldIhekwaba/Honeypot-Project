@@ -36,3 +36,5 @@ Instead of exporting the path every time you need to use Cowrie, you can add the
 In a testing environment, you could simply download and install Splunk Enterprise on the same machine as your honeypot to monitor logs directly. While this works for small-scale testing, in a larger environment, you wouldn’t want to run a Splunk Enterprise indexer on every machine that hosts a honeypot. Instead, you would set up a single Splunk Enterprise instance as a centralized indexer and forward the logs from multiple machines to that indexer.
 This is where Splunk Universal Forwarder comes into play. The forwarder is installed on the machine running the honeypot and sends the logs from that honeypot to the central Splunk Enterprise instance for log management and analysis.
 
+**Installing Splunk Enterprise on the Host Machine**
+
