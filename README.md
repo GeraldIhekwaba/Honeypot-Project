@@ -37,6 +37,8 @@ In a testing environment, you could simply download and install Splunk Enterpris
 This is where Splunk Universal Forwarder comes into play. The forwarder is installed on the machine running the honeypot and sends the logs from that honeypot to the central Splunk Enterprise instance for log management and analysis.
 
 **Installing Splunk Enterprise on the Host Machine**
-1.	Download Splunk Enterprise: Visit the official Splunk website create an account and download the Splunk Enterprise platform on your host machine. Ensure that the version you download is compatible with your system architecture.[_(Splunk official download page)_](/Screenshots/splunkenterprise_off.png)
+1.	Download Splunk Enterprise: Visit the official Splunk website create an account and download the Splunk Enterprise platform on your host machine. Ensure that the version you download is compatible with your system architecture.
 2.	Installation: Once the download is complete, follow the on-screen instructions to install Splunk Enterprise. After installation, you can launch Splunk
+3.	Initial Setup: Complete the initial setup by creating an admin username and password.
+
 
