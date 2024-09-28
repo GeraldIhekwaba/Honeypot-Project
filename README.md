@@ -54,7 +54,7 @@ Before creating the inputs.conf file, you first need to ensure that the Splunk U
 To bypass this permission issue without changing the file permissions, you can create a shared directory and set up a cron job that will automatically copy the logs to that shared directory, which both the Cowrie user and Splunk Forwarder can access.
 	
 1) Create a shared directory that both the Splunk Forwarder and Cowrie user can access, this shared directory will allow both accounts to read and write to it.[_(Creating shared directory)_](/Screenshots/mkdir.png)
-2) Switch to the Cowrie user to set up the cron job, open the cron tab for editing by inputing "crontab -e" Add the command "* * * * * find /home/cowrie/cowrie/var/log/cowrie -name '*json' -mmin -1 -exec cp {} /opt/cowrie_logs/ \;" this cron job will find .json files that were modified in the last minute and copy them to /opt/cowrie_logs/. And to view the details of your crontab file input the command "crontab -l" [_(Cron job)_](/Screenshots/cronjob.png)
+2) Switch to the Cowrie user to set up the cron job, open the crontab for editing by inputing "crontab -e", add the command "* * * * * find /home/cowrie/cowrie/var/log/cowrie -name '*json' -mmin -1 -exec cp {} /opt/cowrie_logs/ \;" this cron job will find .json files that were modified in the last minute and copy them to /opt/cowrie_logs/. And to view the details of your crontab file input the command "crontab -l" [_(Cron job)_](/Screenshots/cronjob.png)
 
  
 
