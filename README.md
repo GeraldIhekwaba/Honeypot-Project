@@ -52,8 +52,9 @@ Once you have installed and set up the Splunk Universal Forwarder, the next step
 
 Before creating the inputs.conf file, you first need to ensure that the Splunk Universal Forwarder has access to the Cowrie logs directory. Run the "ls -lh" command to check the permissions of the Cowrie logs. You would see “permission denied” when trying to access the directory, it means the Splunk Forwarder account cannot access the files. This is expected because the Splunk Universal Forwarder was created with least privileges.[_(Checking permission )_](/Screenshots/permissiondenied.png).
 
-To bypass this permission issue without changing the file permissions, you can create a shared directory and set up a cron job that will automatically copy the logs to that shared directory, which both the Cowrie user and Splunk Forwarder can access.Step 1: Create a Shared Directory
-First, create a shared directory that both the Splunk Forwarder and Cowrie user can access,this shared directory will allow both accounts to read and write to it.
+To bypass this permission issue without changing the file permissions, you can create a shared directory and set up a cron job that will automatically copy the logs to that shared directory, which both the Cowrie user and Splunk Forwarder can access.
+	•	Step 1: Create a Shared Directory
+First, create a shared directory that both the Splunk Forwarder and Cowrie user can access, this shared directory will allow both accounts to read and write to it.
 
 
 
