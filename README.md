@@ -45,5 +45,5 @@ This is where Splunk Universal Forwarder comes into play. The forwarder is insta
 
 **Installing and Configuring Splunk Universal Forwarder**
 
-Proceed to install the Universal Forwarder on the machine running the honeypot ,visit the Splunk official website and download the latest version compatible with system (Debian, ARM, etc.). Once downloaded navigate into the Downloads directory and install it using the "dpkg -i" command._[(Splunk forwarder installation)](/Screenshots/dpkg.png)
+Proceed to install the Universal Forwarder on the machine running the honeypot ,visit the Splunk official website and download the latest version compatible with system (Debian, ARM, etc.). Once downloaded navigate into the Downloads directory and install it using the "dpkg -i" command.[(Splunk forwarder installation)](/Screenshots/dpkg.png)
 
