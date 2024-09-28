@@ -42,6 +42,8 @@ This is where Splunk Universal Forwarder comes into play. The forwarder is insta
 3.	Setup : Complete the initial setup by creating an admin username and password, once setup is finished, you can access the Splunk web interface at " localhost:8000 ". The next step is to configure the receiving port where logs will be forwarded from your honeypot (Cowrie) using the Splunk Universal Forwarder.
 4.	Configuration : Navigate to the Settings Menu from the Splunk web interface, go to Settings > Forwarding and Receiving. In the Forwarding and Receiving section, click on Receiving Data,	here you can configure the port number for receiving the forwarded logs. For example, you can choose port 9997 (this is the default port for Splunk)[_(Configured receiving port)_](/Screenshots/receiving_port.png). And then finally create an index where you want the logs to be forwardered to, go to the Settings > Indexes ,here you create a new index named " cowrie " and leave the remaining settings on default[_(Setting up cowrie index)_](/Screenshots/cowrie_index.png)
 
+
 **Installing and Configuring Splunk Universal Forwarder**
-Proceed to imstall the Universal Forwarder on the machine running the honeypot ,visit the Splunk official website and download the latest version compatible with system (Debian, ARM, etc.). Once downloaded navigate into the Downloads directory and install it using the "dpkg -i" command.
+
+Proceed to install the Universal Forwarder on the machine running the honeypot ,visit the Splunk official website and download the latest version compatible with system (Debian, ARM, etc.). Once downloaded navigate into the Downloads directory and install it using the "dpkg -i" command.
 
