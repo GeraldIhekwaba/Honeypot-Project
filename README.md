@@ -64,6 +64,12 @@ Next the outputs.conf file which tells the Universal Forwarder where to send tho
 Once the inputs.conf and outputs.conf files are set up you can simulate SSH attacks on the Cowrie honeypot, these attacks will generate log data that are forwarded to Splunk Enterprise. The following steps outline how to simulate SSH attacks on your Cowrie honeypot and view them for analysis on Splunk Enterprise.
 
 1) Open the terminal on a different host or virtual machine and SSH into the Cowrie honeypot using the following command "ssh root@<IP_address_of_honeypot>" replace <IP_address_of_honeypot> with the actual IP address of the machine that is hosting the Cowrie honeypot. You’ll be prompted for a password, any password entered will be accepted as a valid password since the honeypot is designed to allow access into the environment.
+2) Simulate attack actions by typing in various common Linux commands that an attacker might use to gather more information about the system[_(SSH simulation)_](/Screenshots/simulated_attacks.png)
+All commands typed during the SSH session will be logged by Cowrie, and these logs will be forwarded to Splunk Enterprise for further analysis.
+3) Analyzing the Logs in Splunk Enterprise: Once the SSH session is complete, you can check the Cowrie logs in Splunk Enterprise. Open the Splunk Web Interface, go to the Search & Reporting page, and in the search bar, type in the index where the logs would be stored in this case that would be "cowrie". Wait for the logs to load, and then you will be able to see the activity that occurred during the SSH session[_(Index Search)_](/Screenshots/initial_indexsearch.png). To analyze the logs more effectively, create a table view in Splunk to focus on specific data points, this will allow you to specify exactly which parts of the data you want to view and analyze[_(Table view of Splunk Logs)_](/Screenshots/splunk_logs.png).
+
+## Conclusion
+Simulating SSH attacks on your Cowrie honeypot gives valuable insights into attacker behavior. The commands entered during the SSH session are logged, giving defenders a way to analyze and understand attack patterns. By integrating this with Splunk Enterprise, you can further explore the data and use it for effective blue teamers(defenders) analysis and defense strategies.
 
  
 
