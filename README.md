@@ -73,6 +73,12 @@ All commands typed during the SSH session will be logged by Cowrie, and these lo
 ## Conclusion
 Simulating SSH attacks on your Cowrie honeypot gives valuable insights into attacker behavior. The commands entered during the SSH session are logged, giving defenders a way to analyze and understand attack patterns. By integrating this with Splunk Enterprise, you can further explore the data and use it for effective blue teamers(defenders) analysis and defense strategies.
 
+## References
+- "GitHub - cowrie/cowrie: Cowrie SSH/Telnet Honeypot https://cowrie ...." https://github.com/cowrie/cowrie
+- "How to Setup “Cowrie” — An SSH Honeypot | by David French ...." 01 Oct. 2018, https://medium.com/threatpunter/how-to-setup-cowrie-an-ssh-honeypot-535a68832e4c
+- "Splunk Official website" https://www.splunk.com/
+- "Splunk Documentation" https://docs.splunk.com/Documentation
+
  
 
 
