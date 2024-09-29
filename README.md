@@ -61,7 +61,9 @@ Now, you can proceed with creating the inputs.conf and outputs.conf configuratio
 Next the outputs.conf file which tells the Universal Forwarder where to send those logs to, which is basically the ip address and listening port number of the Splunk Enterprise[_(Splunkfwd Outputs.conf file)_](/Screenshots/splunkfwd_outputconf.png)
 
 #### Simulating SSH Attacks and Verifying Logs
-Once the inputs.conf and outputs.conf files are set up, you can simulate SSH attacks on the Cowrie honeypot. These attacks will generate log data that is forwarded to Splunk Enterprise.
+Once the inputs.conf and outputs.conf files are set up you can simulate SSH attacks on the Cowrie honeypot, these attacks will generate log data that are forwarded to Splunk Enterprise. The following steps outline how to simulate SSH attacks on your Cowrie honeypot and view them for analysis on Splunk Enterprise.
+
+1) Open the terminal on a different host or virtual machine and SSH into the Cowrie honeypot using the following command "ssh root@<IP_address_of_honeypot>" replace <IP_address_of_honeypot> with the actual IP address of the machine that is hosting the Cowrie honeypot. You’ll be prompted for a password, any password entered will be accepted as a valid password since the honeypot is designed to allow access into the environment.
 
  
 
