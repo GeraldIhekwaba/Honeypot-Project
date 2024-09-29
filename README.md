@@ -17,6 +17,8 @@ This project involves setting up a Cowrie honeypot, forwarding the logs to Splun
   - Splunk Universal Forwarder: A lightweight agent used to collect and forward log data to a Splunk Enterprise instance.
   - Splunk Enterprise: A software platform for indexing, searching, and visualizing large volumes of machine-generated data.
 
+Note: Images are included throughout this document for better clarification of the steps and procedures carried out during the project. These visuals are meant to provide further understanding and guidance on specific actions, such as configuration files, commands, and user interfaces.
+
 ## Setup/Configuration Instructions
 #### Installation and Configuration of Cowrie
 Before installing Cowrie, it’s necessary to configure the SSH service to listen on a different port, such as port 2222, rather than the default port 22. To do this, go to the SSH configuration file located at /etc/ssh/sshd_config, and modify the listening port. [_(Click here to view the port change)_](/Screenshots/sshconfiguration.png)
